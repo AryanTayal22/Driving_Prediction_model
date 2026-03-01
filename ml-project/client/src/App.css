@@ -1,0 +1,66 @@
+/* App Container Styles */
+.app {
+  width: 100%;
+  max-width: 800px;
+}
+
+.container {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+/* Badge Styles */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 0 4px;
+  text-transform: uppercase;
+}
+
+.badge.aggressive {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.badge.normal {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.badge.relaxed {
+  background-color: #d1fae5;
+  color: #059669;
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+  color: #9ca3af;
+  font-size: 0.85rem;
+}
