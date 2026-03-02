@@ -8,6 +8,7 @@ import axios from 'axios';
 import './PredictionForm.css';
 
 // API endpoint (Node.js backend)
+// Use environment variable in production, localhost in development
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
 // Initial form state with default values
